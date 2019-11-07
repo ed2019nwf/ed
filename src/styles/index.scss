@@ -1,0 +1,95 @@
+@import './variables.scss';
+@import './mixin.scss';
+@import './transition.scss';
+@import './element-ui.scss';
+@import './sidebar.scss';
+
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+// main-container global css
+.app-container {
+  padding: 20px;
+}
+
+/***************************************************UI样式重置*******************************************/
+// 输入框
+// .el-form{
+//   .el-form-item{
+//     display: inline-block;
+//   }
+// }
+
+// .el-form-item__label{
+//   width:70px;
+// }
+// .el-form-item__content{
+//   margin-left:70px;
+// }
+// .el-input__inner{
+//   width:140px;
+// }
+// // 时间框
+// .el-date-editor.el-input, .el-date-editor.el-input__inner{
+//   width:140px;
+// }
+
+// // 下拉框
+// .el-select .el-input__inner{
+//   width:140px;
+// }
+.filter-container{
+  padding-bottom:20px;
+}
